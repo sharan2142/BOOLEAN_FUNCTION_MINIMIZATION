@@ -64,7 +64,7 @@ RegisterNumber: 212225040403
 
 **Output:**
 
-![Uploading image.png…]()
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/d943a9db-3a83-4e9e-964c-0de3ba731764" />
 
 
 **Result:**
