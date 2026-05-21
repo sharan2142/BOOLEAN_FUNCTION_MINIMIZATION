@@ -32,8 +32,27 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-<img width="547" height="408" alt="image" src="https://github.com/user-attachments/assets/b46dd684-77a4-4f25-ae8c-0e64298d1ca0" />
+```
+i) module funct1(a,b,c,d,f1);
 
+input a,b,c,d;
+
+output f1;
+
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+
+endmodule
+
+ii) module funct2(w,x,y,z,f2);
+
+input w,x,y,z;
+
+output f2;
+
+assign f2=((~y & z)|( w & y )|(x & y));
+
+endmodule
+```
 Developed by: M SHARAN KUMAR
 
 RegisterNumber: 212225040403
@@ -45,10 +64,8 @@ RegisterNumber: 212225040403
 
 **Output:**
 
-**RTL**
-<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/eafbeba3-6daa-4d05-8918-c44d0fc36a65" />
+![Uploading image.png…]()
 
-**Timing Diagram**
 
 **Result:**
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
